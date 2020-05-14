@@ -35,8 +35,16 @@ a {
   padding-right: 15px;
   outline: 2px solid tomato;
 }
+.title {
+  margin: 0px;
+  padding: 0px;
+}
 /* header-css */
-
+.header-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .header-logo {
   color: var(--accent-color);
   font-family: Raleway, serif;
@@ -48,6 +56,11 @@ a {
 }
 .header-logo span {
   color: var(--primaty-text-color);
+}
+.site-nav {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
 }
 .site-nav .link {
   color: var(--primaty-text-color);
@@ -68,6 +81,8 @@ a {
 .site-nav a[href='mailto:info@devstudio.com']:hover,
 .site-nav a[href='mailto:info@devstudio.com']:focus {
   color: var(--accent-color);
+}
+.container .header-page .item {
 }
 /* footer css */
 .footer {
