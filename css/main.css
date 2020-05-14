@@ -97,7 +97,21 @@
 }
 /* css для portfolio.html */
 /* css для радио-кнопок */
+.filtres {
+  margin-left: auto;
+  margin-right: auto;
+  width: 641px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+}
 .filtres .button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
   font-family: inherit;
   color: var(--primaty-text-color);
   background-color: #f5f4fa;
@@ -113,6 +127,10 @@
   background-color: var(--accent-color);
 }
 /* css для примеров работ */
+.work-list {
+border: 1px solid transparent;
+border-radius: 5px
+}
 .work-list .title {
   font-weight: 700;
   font-size: 18px;
