@@ -1,0 +1,93 @@
+:root {
+  --primaty-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: #ffffff;
+  color: var(--primaty-text-color);
+  font-family: Roboto, serif;
+}
+body .list-rule {
+  list-style: none;
+}
+body .link,
+a {
+  text-decoration: none;
+}
+/* header-css */
+
+.header-logo {
+  color: var(--accent-color);
+  font-family: Raleway, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.header-logo span {
+  color: var(--primaty-text-color);
+}
+.site-nav .link {
+  color: var(--primaty-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.site-nav a[href='tel:+380961111111'],
+.site-nav a[href='mailto:info@devstudio.com'] {
+  color: var(--secondary-text-color);
+}
+.site-nav a[href='./index.html']:hover,
+.site-nav a[href='./index.html']:focus,
+.site-nav a[href='mailto:info@devstudio.com']:hover,
+.site-nav a[href='mailto:info@devstudio.com']:focus {
+  color: var(--accent-color);
+}
+/* footer css */
+.footer {
+  /* бг, чтобы было видно элементы */
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--accent-color);
+  font-family: Raleway, serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.footer-logo-span {
+  color: var(--white-text-color);
+}
+.contacts a {
+  font-style: normal;
+}
+.contacts .address {
+  color: var(--white-text-color);
+}
+.contacts .link {
+  color: var(--secondary-white-color);
+}
+.subscribe {
+  color: var(--white-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.copyright {
+  color: var(--secondary-text-color);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}

@@ -1,0 +1,129 @@
+/* палитра основной черный #212121
+вторичный черный #757575
+основной белый #FFFFFF
+вторичный белый rgba(255, 255, 255, 0.6);
+акцент #2196f3
+*/
+/* css для index.html */
+/* hero css */
+.hero .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  /* фон, чтобы было видно элементы */
+  background-color: grey;
+}
+
+/* css для всех секций */
+.section .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* css для наши преишущества */
+.studio-skills-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.studio-skills-list .text {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.studio-skills-list .link:hover,
+.studio-skills-list .link:focus {
+  color: var(--accent-color);
+}
+/* css для чем мы занимаемся */
+.what-we-do-list .title {
+  color: var(--white-text-color);
+  /* фон для того чтобы было видно текст */
+  background-color: grey;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* css для наша команда */
+.our-team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team-list .text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.member-list .link {
+  color: var(--secondary-text-color);
+}
+.member-list .link:hover,
+.member-list .link:focus {
+  color: var(--accent-color);
+}
+/* css для постоянные клиенты */
+.regular-clients .title {
+  color: var(--primaty-text-color);
+}
+.regular-clients .link:hover,
+.regular-clients .link:focus {
+  color: var(--accent-color);
+}
+
+/* button */
+.button.primary {
+  font-family: inherit;
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+/* css для portfolio.html */
+/* css для радио-кнопок */
+.filtres .button {
+  font-family: inherit;
+  color: var(--primaty-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filtres .button:hover,
+.filtres .button:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+/* css для примеров работ */
+.work-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primaty-text-color);
+}
+.work-list .text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
