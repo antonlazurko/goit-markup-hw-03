@@ -40,6 +40,22 @@
   letter-spacing: 0.03em;
 }
 /* css для наши преишущества */
+
+.studio-skills-list {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin: -15px;
+  padding: 0px;
+}
+.studio-skills-list .item:nth-child(3n) {
+  margin-right: 0;
+}
+.studio-skills-list .item {
+  margin: 15px;
+
+  width: 278px;
+}
 .studio-skills-list .title {
   font-weight: 700;
   font-size: 14px;

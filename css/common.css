@@ -67,10 +67,10 @@ a {
 
 .site-nav {
   display: flex;
-  margin-left: 86px;
+  margin-left: 80px;
 }
 .site-nav .item + .item {
-  margin-left: 51px;
+  margin-left: 50px;
 }
 .site-nav .link,
 .link-nav .link {
