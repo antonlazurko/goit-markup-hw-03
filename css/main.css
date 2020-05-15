@@ -9,7 +9,7 @@
 .hero {
   text-align: center;
 }
-.hero .title {
+.hero .title-hero {
   margin-top: 0;
   margin-bottom: 40px;
   font-weight: 900;
@@ -48,14 +48,13 @@
   display: flex;
   flex-direction: row;
   /* justify-content: space-between; */
-  margin: -15px;
   padding: 0px;
 }
-.studio-skills-list .item:nth-child(3n) {
-  margin-right: 0;
+
+.studio-skills-list .item + .item {
+  margin-left: 30px;
 }
 .studio-skills-list .item {
-  margin: 15px;
   width: 278px;
 }
 .studio-skills-list .title {
@@ -77,8 +76,9 @@
 .studio-skills-list .link:focus {
   color: var(--accent-color);
 }
+
 /* css для чем мы занимаемся */
-.what-we-do-list .title {
+.section .what-we-do-list .title {
   color: var(--white-text-color);
   /* фон для того чтобы было видно текст */
   background-color: grey;
@@ -89,8 +89,21 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.what-we-do-list .item {
+  width: 380px;
+}
+.what-we-do-list .item + .item {
+  margin-left: 30px;
+}
 /* css для наша команда */
+.our-team-list .item + .item {
+  margin-left: 30px;
+}
+.our-team-list .item {
+  width: 278px;
+}
 .our-team-list .title {
+  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -98,11 +111,16 @@
   letter-spacing: 0.03em;
 }
 .our-team-list .text {
+  margin-top: 10px;
+  margin-bottom: 0px;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.member-list {
+  margin: 16px 36px 24px;
 }
 .member-list .link {
   color: var(--secondary-text-color);
@@ -112,6 +130,12 @@
   color: var(--accent-color);
 }
 /* css для постоянные клиенты */
+.regular-clients .item + .item {
+  margin-left: 30px;
+}
+.regular-clients .item {
+  width: 175px;
+}
 .regular-clients .title {
   color: var(--primaty-text-color);
 }
@@ -146,6 +170,7 @@
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 6px 22px;
+  margin-left: -15px;
   min-width: 73px;
   font-family: inherit;
   color: var(--primaty-text-color);
@@ -155,6 +180,9 @@
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.filtres .button:nth-child(3n) {
+  margin-right: 0;
 }
 .filtres .button:hover,
 .filtres .button:focus {
