@@ -27,6 +27,7 @@ body .link,
 a {
   text-decoration: none;
 }
+/* утилиты */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -35,16 +36,16 @@ a {
   padding-right: 15px;
   outline: 2px solid tomato;
 }
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 .title {
   margin: 0px;
   padding: 0px;
 }
 /* header-css */
-.header-page {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .header-logo {
   color: var(--accent-color);
   font-family: Raleway, serif;
@@ -57,12 +58,26 @@ a {
 .header-logo span {
   color: var(--primaty-text-color);
 }
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  margin-right: 0px;
+}
+
 .site-nav {
   display: flex;
-  margin: 0px;
-  padding: 0px;
+  margin-left: 86px;
 }
-.site-nav .link {
+.site-nav .item + .item {
+  margin-left: 51px;
+}
+.site-nav .link,
+.link-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primaty-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -72,17 +87,22 @@ a {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.site-nav a[href='tel:+380961111111'],
-.site-nav a[href='mailto:info@devstudio.com'] {
+.link-nav a[href='tel:+380961111111'],
+.link-nav a[href='mailto:info@devstudio.com'] {
   color: var(--secondary-text-color);
 }
 .site-nav a[href='./index.html']:hover,
 .site-nav a[href='./index.html']:focus,
-.site-nav a[href='mailto:info@devstudio.com']:hover,
-.site-nav a[href='mailto:info@devstudio.com']:focus {
+.link-nav a[href='mailto:info@devstudio.com']:hover,
+.link-nav a[href='mailto:info@devstudio.com']:focus {
   color: var(--accent-color);
 }
-.container .header-page .item {
+.link-nav {
+  display: flex;
+  margin-left: auto;
+}
+.link-nav .item + .item {
+  margin-left: 30px;
 }
 /* footer css */
 .footer {
