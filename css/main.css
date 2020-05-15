@@ -41,7 +41,10 @@
 }
 /* css для наши преишущества */
 
-.studio-skills-list {
+.studio-skills-list,
+.what-we-do-list,
+.our-team-list,
+.regular-clients-list {
   display: flex;
   flex-direction: row;
   /* justify-content: space-between; */
@@ -53,7 +56,6 @@
 }
 .studio-skills-list .item {
   margin: 15px;
-
   width: 278px;
 }
 .studio-skills-list .title {
