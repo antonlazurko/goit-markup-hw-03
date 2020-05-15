@@ -105,6 +105,13 @@ a {
   margin-left: 30px;
 }
 /* footer css */
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  margin-top: 94px;
+  /* justify-content: space-between; */
+  padding: 0px;
+}
 .footer {
   /* бг, чтобы было видно элементы */
   background-color: #2f303a;
@@ -121,7 +128,12 @@ a {
   color: var(--white-text-color);
 }
 .contacts a {
+  display: inline-block;
+  margin-top: 10px;
   font-style: normal;
+}
+.contacts {
+  margin-top: 48px;
 }
 .contacts .address {
   color: var(--white-text-color);
@@ -129,7 +141,14 @@ a {
 .contacts .link {
   color: var(--secondary-white-color);
 }
+.connect {
+  margin-left: 179px;
+}
+.forma {
+  margin-left: 102px;
+}
 .subscribe {
+  margin-top: 56px;
   color: var(--white-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -138,6 +157,8 @@ a {
   text-transform: uppercase;
 }
 .copyright {
+  margin-top: 18px;
+  margin-bottom: 21px;
   color: var(--secondary-text-color);
   font-size: 12px;
   line-height: 2;
