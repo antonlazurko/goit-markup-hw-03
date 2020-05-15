@@ -39,6 +39,13 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
+.title-margin {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.title-no-margin {
+  margin-bottom: 50px;
+}
 /* css для наши преишущества */
 
 .studio-skills-list,

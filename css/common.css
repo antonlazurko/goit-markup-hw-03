@@ -129,16 +129,17 @@ a {
 }
 .contacts a {
   display: inline-block;
-  margin-top: 10px;
   font-style: normal;
 }
 .contacts {
   margin-top: 48px;
 }
 .contacts .address {
+  margin-top: 10px;
   color: var(--white-text-color);
 }
 .contacts .link {
+  margin-top: 10px;
   color: var(--secondary-white-color);
 }
 .connect {
