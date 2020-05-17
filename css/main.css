@@ -63,6 +63,9 @@
 .studio-skills-list .item {
   width: 278px;
 }
+.studio {
+  display: none;
+}
 .studio-skills-list .title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -221,6 +224,9 @@
   background-color: var(--accent-color);
 }
 /* css для примеров работ */
+.portfolio {
+  display: none;
+}
 .work-list {
   display: flex;
   flex-wrap: wrap;

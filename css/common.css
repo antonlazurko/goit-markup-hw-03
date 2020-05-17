@@ -56,6 +56,7 @@ a {
 }
 /* header-css */
 .header-logo {
+  display: block;
   padding-top: 24px;
   padding-bottom: 25px;
   color: var(--accent-color);
@@ -128,6 +129,9 @@ a {
 .footer {
   /* бг, чтобы было видно элементы */
   background-color: #2f303a;
+}
+.foorter-title {
+  display: none;
 }
 .footer-logo {
   margin-bottom: 10px;
