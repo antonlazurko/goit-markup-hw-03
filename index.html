@@ -15,20 +15,21 @@
     <!-- header-conteiner -->
     <header>
       <div class="container">
-        <nav class="container main-nav">
-          <a class="header-logo" href="./index.html">
-            Web <span class="header-logo">Studio</span></a
-          >
-          <ul class="site-nav list-rule">
-            <li class="item">
-              <a href="./index.html" class="link current">Студия</a>
-            </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link">Портфолио</a>
-            </li>
-            <li class="item"><a href="" class="link">Контакты </a></li>
-          </ul>
-
+        <div class="hed">
+          <nav class="nav">
+            <a class="header-logo" href="./index.html">
+              Web <span class="header-logo">Studio</span></a
+            >
+            <ul class="site-nav list-rule">
+              <li class="item">
+                <a href="./index.html" class="link current">Студия</a>
+              </li>
+              <li class="item">
+                <a href="./portfolio.html" class="link">Портфолио</a>
+              </li>
+              <li class="item"><a href="" class="link">Контакты </a></li>
+            </ul>
+          </nav>
           <ul class="link-nav list-rule">
             <li class="item">
               <a href="mailto:info@devstudio.com" class="link">
@@ -43,13 +44,13 @@
               >
             </li>
           </ul>
-        </nav>
+        </div>
       </div>
     </header>
     <main>
       <section class="conteiner hero">
         <h1 class="title-hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <a href="" class="button primary">Заказать услугу</a>
+        <a href="" class="button hero">Заказать услугу</a>
       </section>
       <!-- Studio-skills-conteiner-->
       <section class="section">
@@ -129,10 +130,11 @@
       <!-- what-we-do-conteiner -->
       <section class="section">
         <div class="container">
-          <h2 class="title title-no-margin">Чем мы занимаемся</h2>
+          <h2 class="title">Чем мы занимаемся</h2>
           <ul class="what-we-do-list list-rule">
             <li class="item">
               <img
+                class="image"
                 src="./images/what_we_do/desktop_logo.jpg"
                 alt="руки на клавиатуре ноутбука"
                 width="380"
@@ -143,6 +145,7 @@
             </li>
             <li class="item">
               <img
+                class="image"
                 src="./images/what_we_do/apps_logo.jpg"
                 alt="фото смартфона"
                 width="380"
@@ -154,6 +157,7 @@
             </li>
             <li class="item">
               <img
+                class="image"
                 src="./images/what_we_do/design_logo.jpg"
                 alt="экран монитора"
                 width="380"
@@ -167,12 +171,13 @@
         </div>
       </section>
       <!-- our-team-conteiner -->
-      <section class="section">
+      <section class="section team">
         <div class="container">
           <h2 class="title title-margin">Наша команда</h2>
           <ul class="our-team-list list-rule">
             <li class="item">
               <img
+                class="image"
                 src="./images/team/img_john.jpg"
                 width="278"
                 height="260"
@@ -206,6 +211,7 @@
             </li>
             <li class="item">
               <img
+                class="image"
                 src="./images/team/img_maria.jpg"
                 width="278"
                 height="260"
@@ -237,6 +243,7 @@
 
             <li class="item">
               <img
+                class="image"
                 src="./images/team/img_robert.jpg"
                 width="278"
                 height="260"
@@ -268,6 +275,7 @@
 
             <li class="item">
               <img
+                class="image"
                 src="./images/team/img_martin.jpg"
                 width="278"
                 height="260"
@@ -302,7 +310,7 @@
       <!-- regular-clients-conteiner -->
       <section class="section">
         <div class="container">
-          <h2 class="title title-margin">Постоянные клиенты</h2>
+          <h2 class="title">Постоянные клиенты</h2>
           <ul class="regular-clients-list list-rule">
             <li class="item">
               <a href="" aria-label="Клиент 1">
@@ -350,7 +358,8 @@
           <address>
             <a href="#" class="address">г. Киев, пр-т Леси Украинки, 26</a>
             <br />
-            <a href="mailto:info@example.com" class="link">info@example.com</a
+            <a href="mailto:info@example.com" class="link mail"
+              >info@example.com</a
             ><br />
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </address>
