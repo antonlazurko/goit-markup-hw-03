@@ -205,6 +205,7 @@
 
 .filtres .button {
   display: block;
+  /* margin-bottom: 50px; */
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 6px 22px;
@@ -230,7 +231,7 @@
 .work-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 0px;
+  padding-top: 50px;
   margin: -15px;
   border: 1px solid transparent;
   border-radius: 5px;
