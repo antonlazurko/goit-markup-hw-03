@@ -53,6 +53,7 @@
 .regular-clients-list {
   display: flex;
   flex-direction: row;
+  align-items: center;
   /* justify-content: space-between; */
   padding: 0px;
 }
@@ -61,7 +62,15 @@
   margin-left: 30px;
 }
 .studio-skills-list .item {
+  display: flex;
+  flex-direction: column;
   width: 278px;
+}
+.features-link {
+  display: block;
+  padding-bottom: 30px;
+}
+.features-description {
 }
 .studio {
   display: none;
@@ -238,12 +247,25 @@
 }
 .work-list .item {
   margin: 15px;
-  width: 380px;
+  width: 370px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  /* width: calc((100% - 60px) / 3); */
 }
 .work-list .item:nth-child(3n) {
   margin-right: 0;
 }
-
+.card-content {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
 .work-list .title {
   font-weight: 700;
   font-size: 18px;
