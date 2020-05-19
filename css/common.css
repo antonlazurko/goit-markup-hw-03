@@ -57,7 +57,10 @@ a {
 img {
   display: block;
   max-width: auto;
-  min-width: ;
+  /* min-width: ; */
+}
+.title-margin {
+  margin-bottom: 50px;
 }
 /* header-css */
 .header-logo {
@@ -133,6 +136,7 @@ img {
 .footer {
   /* бг, чтобы было видно элементы */
   background-color: #2f303a;
+  padding-top: 48px;
 }
 .foorter-title {
   display: none;
@@ -155,7 +159,6 @@ img {
   font-style: normal;
 }
 .contacts {
-  padding-top: 48px;
 }
 .contacts .address {
   display: block;
@@ -168,6 +171,7 @@ img {
   margin-bottom: 10px;
 }
 .contacts .link {
+  display: block;
   color: var(--secondary-white-color);
 }
 .connect {
