@@ -46,7 +46,7 @@
 .our-team-list,
 .regular-clients-list {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
   /* justify-content: space-between; */
   padding: 0px;
@@ -65,9 +65,6 @@
   padding-bottom: 30px;
 }
 .features-description {
-}
-.studio {
-  display: none;
 }
 .studio-skills-list .title {
   margin-bottom: 10px;
@@ -201,6 +198,7 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   width: 641px;
   padding-left: 15px;
   padding-right: 15px;
@@ -209,7 +207,6 @@
 
 .filtres .button {
   display: block;
-  /* margin-bottom: 50px; */
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 6px 22px;
@@ -229,20 +226,18 @@
   background-color: var(--accent-color);
 }
 /* css для примеров работ */
-.portfolio {
-  display: none;
-}
 .work-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 50px;
-  margin: -15px;
+  /* margin: -15px; */
   border: 1px solid transparent;
   border-radius: 5px;
 }
 .work-list .item {
-  margin: 15px;
-  width: 370px;
+  /* margin: 15px; */
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
