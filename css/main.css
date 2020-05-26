@@ -7,7 +7,30 @@
 /* css для index.html */
 /* hero css */
 .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/hero/hero.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-content {
+  width: 646px;
+  height: 200px;
+  display: flex;
   text-align: center;
+  flex-direction: column;
 }
 .hero .title-hero {
   margin-top: 0;
@@ -18,8 +41,6 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
-  /* фон, чтобы было видно элементы */
-  background-color: grey;
 }
 
 /* css для всех секций */
@@ -93,7 +114,7 @@
   padding-bottom: 27px;
   color: var(--white-text-color);
   /* фон для того чтобы было видно текст */
-  background-color: grey;
+  background-color: rgba(47, 48, 58, 0.8);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -167,7 +188,7 @@
 }
 
 /* button */
-.button.hero {
+.button.hero-button {
   display: block;
   margin-left: auto;
   margin-right: auto;
